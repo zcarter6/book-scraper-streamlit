@@ -70,7 +70,7 @@ def keyword_search(genre_selected):
             st.write(f'Found {len(results)} books:')
             for book in results:
                 st.write(f'{book['title']} | {book['rating']}/5 | {book['price']}')
-            with open('Final Results IT 140.txt', 'a', encoding='utf-8') as file: #utf-8 fixed exncoding error giving access to more symbols, append nnot write so it dosent rewrite saved info
+            with open('results.txt', 'a', encoding='utf-8') as file: #utf-8 fixed encoding error giving access to more symbols, append not write so it dosent rewrite saved info
                 file.write('Here are your results!\n ')
                 for book in results:
                     file.write(f"Title: {book['title']} | Price: {book['price']} | Rating: {book['rating']}/5\n")
