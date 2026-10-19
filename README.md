@@ -27,7 +27,7 @@ python -m streamlit run book_scraper_zc.py
 The app opens in your browser at http://localhost:8501.
 
 ## Usage
-1. Type a genre exactly as it appears on the site (e.g., Travel)
+1. Type a genre exactly as it appears on the site (e.g., Fantasy)
 2. Enter a keyword
 3. Click Search
 
